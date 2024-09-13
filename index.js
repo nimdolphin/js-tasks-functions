@@ -1,5 +1,5 @@
-const isPalindrome = (str) => {
-  str = str.replace(/\s+/g, '').toLowerCase();
+const isPalindrome = (value) => {
+  const str = String(value).replace(/\s+/g, '').toLowerCase();
 
   if (str.length <= 1) {
     return true;
@@ -41,6 +41,10 @@ const substr = (str, start = 0, length = str.length) => {
 };
 
 const apply = (count, func, arg) => {
+  if (count < 0) {
+    throw new Error("you can't use a negative count");
+  }
+
   let result = arg;
   for (let i = 0; i < count; i++) {
     result = func(result);

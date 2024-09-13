@@ -16,7 +16,7 @@ This project implements three functions:
 git clone https://github.com/nimdolphin/js-tasks-functions.git
 ```
 
-2. Install dependencies (if any):
+2. Install dependencies:
 
 ```bash
 npm install
@@ -36,8 +36,8 @@ node yourfile.js
 
 ## Tests
 
-Run the tests:
+To run the tests, use the following command:
 
 ```bash
-node test.js
+npm test
 ```

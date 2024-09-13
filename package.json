@@ -1,0 +1,23 @@
+{
+  "name": "js-tasks-func",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimdolphin/js-tasks-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimdolphin/js-tasks-functions/issues"
+  },
+  "homepage": "https://github.com/nimdolphin/js-tasks-functions#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
